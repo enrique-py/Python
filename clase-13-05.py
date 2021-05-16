@@ -27,5 +27,5 @@ distancia = int(input('ingrese los kilometros de distancia en numeros: '))
 Hermanos = int(input('ingrese cantidad de hermanos que tiene: '))
 ingresos = int(input('ingrese ingresos familiares: '))
 
-if distancia < 40 and Hermanos > 1 and ingresos in range(1,1000): print("si") else:print("no")
+print("ok")if distancia < 40 and Hermanos > 1 and ingresos in range(1,1000) else print("no")
      
