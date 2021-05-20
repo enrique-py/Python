@@ -46,3 +46,16 @@ while frase2 != "":
     frase = frase2
     
 print("gracias")
+
+phrase = input(":")
+phrase = phrase.lower()
+
+is_valid = True
+max_index = len(phrase) - 1
+number_of_elements = len(phrase)
+
+for i in range(0, number_of_elements):
+    if phrase[i] != phrase[max_index]:
+        is_valid = False
+    max_index -= 1
+print(f"la frase {phrase} es un palindromo" if is_valid == True else f"la frase {phrase} no es un palindromo")
