@@ -51,10 +51,10 @@ people = ["jonas", "julio", "mike", "mez"]
 ages = [25, 30, 31, 39]
 length = len(people)
 
-for i in range (0, length):
+for i in range (0, length): # buscar indice de cada elemento de lista
     name = people[i]
     age = ages[i]
     print(f"{name} {age}")
-    
-for nombre, edad in zip(people,ages):
+
+for nombre, edad in zip(people,ages): # solo sirve en python
     print(f"{nombre} {edad}")
