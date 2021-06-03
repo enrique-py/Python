@@ -23,6 +23,7 @@ def clasificacion_huevos(mi_lista):
                {'tipo_huevo': 'BC', 'numeros_huevos': huevos_BC, 'numero_bandejas':cajas[3]}
                ]
     return result
+    # prueba
 
 def calcular_bandejas(A, AA, AAA, BC):
     bandeja_A = A//30
